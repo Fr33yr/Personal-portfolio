@@ -421,6 +421,7 @@ header {
   margin-bottom: 0.7em;
 }
 .overlay__text a {
+  margin: 0.3em 0.3em;
   color: #303030;
   text-decoration: none;
   outline: none;
