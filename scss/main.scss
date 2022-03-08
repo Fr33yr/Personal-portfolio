@@ -7,8 +7,8 @@ html{
 }
 
 body{
-    background: $clr-light;
-    color: $clr-dark;
+    background: $contrast;
+    color: $base-clr2;
     margin: 0;
     font-family: $ff-primary;
     font-size: var(--fs-body);
@@ -27,15 +27,15 @@ img{
 strong{font-weight: $fw-bold;}
 
 :focus{
-    outline: 2px solid $clr-accent;
+    outline: 2px solid $main-clr2;
     outline-offset: 2px;
 }
 
 .btn{
     display: inline-block;
     padding: .5em 2.5em;
-    background: $clr-accent;
-    color: $clr-dark;
+    background: $main-clr2;
+    color: $base-clr2;
     text-decoration: none;
     cursor: pointer;
     font-size: .8em;
@@ -80,13 +80,13 @@ h3 {font-size: var(--fs-h3);}
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: $clr-accent;
+    background: $main-clr;
     padding: .25em 1em;
     font-family: $ff-secondary;
 }
 
 .section__subtitle--work{
-    color: $clr-accent;
+    color: $main-clr;
     font-size: 2.5rem;
     font-weight: $fw-bold;
     margin-bottom: 1em;
@@ -106,8 +106,8 @@ header{
 
 .nav{
     position: fixed;
-    background: $clr-light;
-    color: $clr-dark;
+    background: $contrast;
+    color: $base-clr2;
     top: 0;
     bottom: 0;
     left: 0;
@@ -136,7 +136,7 @@ header{
 }
 
 .nav__link:hover{
-    color: $clr-accent;
+    color: $main-clr2;
 }
 
 .hamburger{
@@ -183,7 +183,7 @@ header{
 .hamburger,
 .hamburger::before,
 .hamburger::after{
-    background: $clr-accent;
+    background: $main-clr2;
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -197,7 +197,7 @@ header{
     position: absolute;
     left: 0;
     right: 0;
-    background: $clr-accent;
+    background: $main-clr2;
 }
 
 
@@ -221,16 +221,16 @@ header{
 //===What I do====
 
 .my-services{
-    background-color: $clr-dark;
+    background-color: $base-clr;
     background-image: url(../img/office.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-    color: $clr-dark;
+    color: $base-clr2;
     text-align: center;
 }
 
 .section__title--services{
-    color: $clr-accent;
+    color: $main-clr2;
     position: relative;
 }
 
@@ -249,7 +249,7 @@ header{
     width: 3em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: $clr-light;
+    background: $contrast;
     opacity: 0.25;
 }
 
@@ -267,8 +267,8 @@ header{
 //===My Work===
 
 .my-work{
-    background-color: #ebebeb;
-    color: $clr-light;
+    background-color: $base-clr;
+    color: $contrast;
     text-align: center;
 }
 
@@ -305,7 +305,7 @@ header{
     max-width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: $clr-accent;
+    background-color: $main-clr2
 }
 
 .container:hover .overlay {
@@ -321,7 +321,7 @@ header{
     opacity: 1;
     display: flex;
     flex-direction: column;
-    color: $clr-dark;
+    color: $base-clr2;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -329,11 +329,17 @@ header{
     transform: translate(-50%, -50%);
     text-align: center;
     h3{
-        margin-bottom: .7em;
+        margin-bottom: .3em;
     }
+}
+
+.overlay__text--links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     a{
         margin: .3em .3em;
-        color: $clr-light;
+        color: $contrast;
         text-decoration: none;
         outline: none;
         font-size: var(--fs-h3);
@@ -344,10 +350,10 @@ header{
 //===Footer===
 
 .footer{
-    background: #111;
-    color: $clr-accent;
+    background: $contrast;
+    color: $main-clr2;
     text-align: center;
-    padding: 2.5em 0;
+    padding: 1.5em 0;
     font-size: var(--fs-h3);
 }
 
@@ -365,7 +371,7 @@ header{
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 2em 0;
+    margin: 1.5em 0;
     padding: 0;
 }
 

@@ -96,8 +96,8 @@ html {
 }
 
 body {
-  background: #303030;
-  color: #fff;
+  background: #151324;
+  color: #F0EDEE;
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
   font-size: var(--fs-body);
@@ -118,15 +118,15 @@ strong {
 }
 
 :focus {
-  outline: 2px solid #30cc8e;
+  outline: 2px solid #639FAB;
   outline-offset: 2px;
 }
 
 .btn {
   display: inline-block;
   padding: 0.5em 2.5em;
-  background: #30cc8e;
-  color: #fff;
+  background: #639FAB;
+  color: #F0EDEE;
   text-decoration: none;
   cursor: pointer;
   font-size: 0.8em;
@@ -177,13 +177,13 @@ h3 {
 
 .section__subtitle--intro,
 .section__subtitle--about {
-  background: #30cc8e;
+  background: #0F4D92;
   padding: 0.25em 1em;
   font-family: "Source Code Pro", monospace;
 }
 
 .section__subtitle--work {
-  color: #30cc8e;
+  color: #0F4D92;
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1em;
@@ -201,8 +201,8 @@ header {
 
 .nav {
   position: fixed;
-  background: #303030;
-  color: #fff;
+  background: #151324;
+  color: #F0EDEE;
   top: 0;
   bottom: 0;
   left: 0;
@@ -231,7 +231,7 @@ header {
 }
 
 .nav__link:hover {
-  color: #30cc8e;
+  color: #639FAB;
 }
 
 .hamburger {
@@ -277,7 +277,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: #30cc8e;
+  background: #639FAB;
   width: 2em;
   height: 3px;
   border-radius: 1em;
@@ -290,7 +290,7 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  background: #30cc8e;
+  background: #639FAB;
 }
 
 .hamburger::before {
@@ -314,16 +314,16 @@ header {
 }
 
 .my-services {
-  background-color: #fff;
+  background-color: #E3D7FF;
   background-image: url(../img/office.jpg);
   background-size: cover;
   background-blend-mode: multiply;
-  color: #fff;
+  color: #F0EDEE;
   text-align: center;
 }
 
 .section__title--services {
-  color: #30cc8e;
+  color: #639FAB;
   position: relative;
 }
 
@@ -342,7 +342,7 @@ header {
   width: 3em;
   height: 1px;
   margin: 0.5em auto 1em;
-  background: #303030;
+  background: #151324;
   opacity: 0.25;
 }
 
@@ -356,8 +356,8 @@ header {
 }
 
 .my-work {
-  background-color: #ebebeb;
-  color: #303030;
+  background-color: #E3D7FF;
+  color: #151324;
   text-align: center;
 }
 
@@ -393,7 +393,7 @@ header {
   max-width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #30cc8e;
+  background-color: #639FAB;
 }
 
 .container:hover .overlay {
@@ -409,7 +409,7 @@ header {
   opacity: 1;
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #F0EDEE;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -418,21 +418,27 @@ header {
   text-align: center;
 }
 .overlay__text h3 {
-  margin-bottom: 0.7em;
+  margin-bottom: 0.3em;
 }
-.overlay__text a {
+
+.overlay__text--links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.overlay__text--links a {
   margin: 0.3em 0.3em;
-  color: #303030;
+  color: #151324;
   text-decoration: none;
   outline: none;
   font-size: var(--fs-h3);
 }
 
 .footer {
-  background: #111;
-  color: #30cc8e;
+  background: #151324;
+  color: #639FAB;
   text-align: center;
-  padding: 2.5em 0;
+  padding: 1.5em 0;
   font-size: var(--fs-h3);
 }
 
@@ -448,7 +454,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 2em 0;
+  margin: 1.5em 0;
   padding: 0;
 }
 
