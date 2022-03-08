@@ -99,7 +99,7 @@ body {
   background: #151324;
   color: #F0EDEE;
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lora", serif;
   font-size: var(--fs-body);
   line-height: 1.6;
 }
@@ -179,7 +179,7 @@ h3 {
 .section__subtitle--about {
   background: #0F4D92;
   padding: 0.25em 1em;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Roboto Slab", serif;
 }
 
 .section__subtitle--work {
@@ -224,14 +224,14 @@ header {
 }
 
 .nav__link {
-  color: inherit;
+  color: #639FAB;
   font-weight: 900;
   font-size: var(--fs-h3);
   text-decoration: none;
 }
 
 .nav__link:hover {
-  color: #639FAB;
+  color: #0F4D92;
 }
 
 .hamburger {

@@ -129,14 +129,14 @@ header{
 }
 
 .nav__link{
-    color: inherit;
+    color: $main-clr2;
     font-weight: $fw-bold;
     font-size: var(--fs-h3);
     text-decoration: none;
 }
 
 .nav__link:hover{
-    color: $main-clr2;
+    color: $main-clr;
 }
 
 .hamburger{
