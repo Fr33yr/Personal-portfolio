@@ -97,7 +97,7 @@ html {
 
 body {
   background: #151324;
-  color: #fbfaff;
+  color: #ebebed;
   margin: 0;
   font-family: "Lora", serif;
   font-size: var(--fs-body);
@@ -126,7 +126,7 @@ strong {
   display: inline-block;
   padding: 0.5em 2.5em;
   background: #639FAB;
-  color: #fbfaff;
+  color: #ebebed;
   text-decoration: none;
   cursor: pointer;
   font-size: 0.8em;
@@ -202,7 +202,7 @@ header {
 .nav {
   position: fixed;
   background: #151324;
-  color: #fbfaff;
+  color: #ebebed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -318,7 +318,7 @@ header {
   background-image: url(../img/hero.jpg);
   background-size: cover;
   background-blend-mode: multiply;
-  color: #fbfaff;
+  color: #ebebed;
   text-align: center;
 }
 
@@ -409,7 +409,7 @@ header {
   opacity: 1;
   display: flex;
   flex-direction: column;
-  color: #fbfaff;
+  color: #ebebed;
   font-size: 20px;
   position: absolute;
   top: 50%;
